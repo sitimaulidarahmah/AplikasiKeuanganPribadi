@@ -1,0 +1,4 @@
+Tanggal,Tipe,Kategori,Jumlah,Deskripsi
+03 Nov 2025,Pengeluaran,Tagihan,500000,tagihan listrik per bulan
+02 Nov 2025,Pengeluaran,Makanan,2000000,biaya makan per bulan
+01 Nov 2025,Pemasukan,Gaji,10000000,gaji 
