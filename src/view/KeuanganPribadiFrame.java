@@ -674,7 +674,6 @@ public class KeuanganPribadiFrame extends javax.swing.JFrame {
             loadDataFromDatabase();      // <-- Refresh tabel
 
             resetForm();
-            JOptionPane.showMessageDialog(this, "Transaksi berhasil disimpan!");
 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Input tidak valid!");
@@ -871,7 +870,6 @@ public class KeuanganPribadiFrame extends javax.swing.JFrame {
         try {
             transaksiDAO.delete(id);
             loadDataFromDatabase();
-            JOptionPane.showMessageDialog(this, "Transaksi berhasil dihapus!");
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(this, "Gagal menghapus transaksi!");
         }
